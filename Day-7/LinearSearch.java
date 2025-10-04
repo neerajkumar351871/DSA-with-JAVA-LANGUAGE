@@ -19,7 +19,7 @@ public class LinearSearch {
                 System.out.println(" Fruits is Available:" + fruits[i]);
                 break;
             } else {
-                System.out.println(" Fruits is NOt  Available:");
+                System.out.println(" Fruits is NOt  Available:"+fruits[i]);
                 break;
             }
 
