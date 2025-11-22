@@ -27,7 +27,7 @@ public class ArrayQuestion
         return max;
     }
     public static int findMin(int arr[]) {
-        int min = Integer.MAX_VALUE;  // smallest possible number
+        int min = Integer.MAX_VALUE;  //Largest possible number
 
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] < min) {
