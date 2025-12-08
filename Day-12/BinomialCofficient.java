@@ -26,7 +26,7 @@ return binomialcofficient;
 
     public static void main(String[] args) {
         int n=7;
-        int r=3;
+        int r=;
         int result=BinomialCofficient(n, r);
         System.out.println("Factorail of this number:"+result);
         
