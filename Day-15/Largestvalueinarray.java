@@ -14,6 +14,6 @@ public class Largestvalueinarray {
     public static void main(String[] args) {
         int array[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10,34};
         int result = Largestvalueinarray(array);
-        System.out.println("Largest value is :" + result);
+        System.out.println("Largest value is : " + result);
     }
 }
