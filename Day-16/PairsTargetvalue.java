@@ -1,5 +1,5 @@
 
-public class PairsTargetvalue{
+public class PairsTargetvalue {
 
     public static void Pairsinarray(int array[], int target) {
         for (int i = 0; i < array.length; i++) {
@@ -10,7 +10,7 @@ public class PairsTargetvalue{
                 targetvalue = array[i] + array[j];
                 // System.out.println("Pairs value:"+targetvalue);
                 if (targetvalue == target) {
-                    System.out.println("Target value "+target+ " is find :" + "(" + array[i] + "," + array[j] + ") :");
+                    System.out.println("Target value " + target + " is find :" + "(" + array[i] + "," + array[j] + ") :");
                 } else {
                     System.out.println("Target value is is not found:" + target);
                 }
