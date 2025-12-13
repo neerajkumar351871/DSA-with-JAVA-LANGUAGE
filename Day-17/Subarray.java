@@ -7,7 +7,7 @@ public class Subarray
     // End =j;
     for(int i=0;i<array.length;i++)
     {
-        for(int j=i+1;j<array.length;j++)
+        for(int j=i;j<array.length;j++)
         {
            for(int val=i;val<=j;val++)
            {
