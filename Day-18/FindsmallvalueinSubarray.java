@@ -1,8 +1,9 @@
+
 public class FindsmallvalueinSubarray {
 
     public static void Subarray(int array[]) {
-        int min = Integer.MAX_VALUE;   // overall minimum
-
+        // overall minimum
+        int min = Integer.MAX_VALUE;
         for (int i = 0; i < array.length; i++) {
 
             for (int j = i; j < array.length; j++) {
@@ -24,8 +25,8 @@ public class FindsmallvalueinSubarray {
             }
             System.out.println();
         }
-
         System.out.println("Min value is: " + min);
+
     }
 
     public static void main(String[] args) {
