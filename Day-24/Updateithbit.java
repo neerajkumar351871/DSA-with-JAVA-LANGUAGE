@@ -19,9 +19,18 @@ public class Updateithbit {
             return Set_Bit_(n, i);
         }
     }
+     public static int ClearbitIth(int n, int i)
+     {
+        int bitmask = (~(0)<<i);
+         return  n & bitmask ;
+     }
 
     public static void main(String[] args) {
     
-    System.out.println(Updateithbit(10, 2,4));
+    // System.out.println(Updateithbit(10, 2,4));
+    
+    System.out.println( ClearbitIth(15, 2));
+ 
+   //  System.out.println(((-1)<<2));
     }
 }
