@@ -16,9 +16,22 @@ public class KadanesAlgo
      }
         System.out.println("Our max sum :"+ms);
    } 
+   public static void KadanesAlgos(int array[])
+   {
+    int ms=Integer.MIN_VALUE;
+     int cs=0;
+     for(int i=0;i<array.length;i++)
+     {
+        cs+=array[i];
+       ms=Math.max(cs,ms);
+     }
+        System.out.println("Our max sum :"+ms);
+
+   }
    public static void main(String[] args) {
-       int array[]={-2,-3,4,-1,-2,1,5,-3};
-       KadanesAlgo(array);
+       int array[]={-1,-2,-3,-4};
+    //   KadanesAlgo(array);
+    KadanesAlgos(array);
    }
 
 }
