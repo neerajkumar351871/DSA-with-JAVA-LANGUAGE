@@ -2,6 +2,7 @@ public class Bruteforce {
 
     public static void BruteforceAlgo(int array[]) {
         int max=Integer.MIN_VALUE;
+        int min=Integer.MAX_VALUE;
       
     for(int i=0;i<array.length;i++)
     {     int sum=0;
@@ -10,7 +11,12 @@ public class Bruteforce {
             System.out.print(array[j]+" ");
             sum+=array[j];
             System.out.print(sum);
-            max=Math.max(max,sum);
+           // max=Math.max(max,sum);
+           if(max<sum)
+           {
+            max=sum;
+           }
+            min=Math.min(sum,min);
           
           
         }
@@ -18,6 +24,7 @@ public class Bruteforce {
          
     }
     System.out.println("Max value:"+max);
+    System.out.println("Min Value :"+min);
 
     }
 
