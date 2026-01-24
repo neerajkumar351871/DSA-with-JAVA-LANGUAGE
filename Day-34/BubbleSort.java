@@ -2,7 +2,7 @@ public class BubbleSort
 {  
     public static void BubbleSort(int array[])
     { 
-       
+         // Time complexity  is o(n)2
         for(int turn =0; turn<array.length-1;turn++)
         {  int count=0;    
           for(int j=0;j< array.length-1-turn;j++)
