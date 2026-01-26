@@ -1,3 +1,4 @@
+
 public class InsertionSort
 { 
     public static void InsertionSort(int array[])
@@ -24,7 +25,8 @@ public class InsertionSort
     }
   public static void main(String[] args) {
       int array[]={5,4,1,3,2};
-      InsertionSort(array);
+      //InsertionSort(array);
+      array.sort
       printarry(array);
   }  
 }
