@@ -9,6 +9,7 @@ public class CountingSort {
         int count[] = new int[largest + 1]; // include the value is Zero.
         for (int i = 0; i < array.length; i++) {
             count[array[i]]++;
+          
         }
         int j = 0;
         for (int i = 0; i < count.length; i++) {
