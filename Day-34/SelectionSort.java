@@ -10,7 +10,7 @@ public  class SelectionSort
                 {
                      minpos=j;
                 }
-            }
+            } 
             // swap
             int temp=0;
             temp= array[minpos];
