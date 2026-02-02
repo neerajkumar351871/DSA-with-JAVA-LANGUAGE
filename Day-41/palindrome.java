@@ -2,12 +2,12 @@
 { 
     public static boolean paldromeString(String str)
     {
-        int end= str.length()-1;
+       
         for(int i=0;i<str.length()/2;i++)
         {
-           if(str.charAt(i)== str.charAt(end))
+           if(str.charAt(i)== str.charAt(str.length()-1-i))
            { 
-             end --;
+            
             return  true ;
            }
         }
