@@ -1,8 +1,6 @@
-
-
 public class SubString
 {
-    public static void SubStrings(int si, int ei, String str)
+ public static void SubStrings(int si, int ei, String str)
     {
     // Si Starting index.
     // EI Ending index
