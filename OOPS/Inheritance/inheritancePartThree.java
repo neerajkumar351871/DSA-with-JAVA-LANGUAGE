@@ -6,7 +6,7 @@ public class inheritancePartThree
       n.Sharkfishcolor();
       
     }
-}//  Hybrid Inhetitance
+}//  Hybrid Inheritance
 class Animal
 {
     void eat()
